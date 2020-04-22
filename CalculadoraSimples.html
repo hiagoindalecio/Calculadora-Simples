@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Super Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            <h1>
+                Super Calculadora
+            </h1>
+        </h1>
+    </header>
+    <section>
+        <div id="body">
+            <p>1º:
+                <input type="number" name="txtN1" id="txtN1">
+            </p>
+            <p>2º:
+                <input type="number" name="txtN2" id="txtN2">
+            </p>
+            <p>Operação:
+                <input type="radio" name="radOperacao" id="rbtSoma" checked>
+                <label for="rbtSoma"> + </label>
+                <input type="radio" name="radOperacao" id="rbtSubtracao">
+                <label for="rbtSubtracao"> - </label>
+                <input type="radio" name="radOperacao" id="rbtDivisao">
+                <label for="rbtDivisao"> / </label>
+                <input type="radio" name="radOperacao" id="rbtMultiplicacao">
+                <label for="rbtMultiplicacao"> * </label>
+            </p>
+            <p>
+                <input type="button" value="Calcular" id="btnCalcular" onclick="Calcular()">
+                <input type="button" value="CE" id="btnCE" onclick="Limpa()">
+            </p>
+        </div>
+        <div id="result">
+            <p>Resultado: </p>
+        </div> 
+    </section>
+    <footer>
+        <p>&copy;IndDev</p>
+    </footer>
+    <script src="JSex16.js"></script>
+</body>
+</html>
